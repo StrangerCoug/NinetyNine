@@ -184,7 +184,7 @@ public class Game {
                 }
                 
                 for (int i = 0; i < numPlayers; i++) {
-                    getPlayer(indexOfCurrentPlayer).play
+                    getPlayer(indexOfCurrentPlayer).selectAndPlayCard
                             (cardsPlayed, getCurrentTrump());
                     cardsPlayed[i] = getPlayer(indexOfCurrentPlayer)
                             .getCardPlayed();

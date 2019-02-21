@@ -106,14 +106,27 @@ public abstract class Player {
         return tricksBid;
     }
     
-    public abstract void play(Card[] cardsPlayed, CardSuit trump);
+    public void selectAndPlayCard(Card[] cardsPlayed, CardSuit trump) {
+        playCard(selectCard(cardsPlayed, trump));
+    }
+    
+    public abstract Card selectCard(Card[] cardsPlayed, CardSuit trump);
     
     protected void playCard(Card card) {
+        if (!hand.contains(card)) {
+            throw new IllegalArgumentException(name + " tried to play the "
+                    + card.toString() + ", but doesn't have that card.");
+        }
+        
         cardPlayed = card;
         removeCard(card);
     }
     
     protected void playCard(Card card, CardSuit suitLed){ 
+        if (!hand.contains(card)) {
+            throw new IllegalArgumentException("You don't have that card.");
+        }
+        
         if (hasSuit(suitLed) && card.getSuit() != suitLed) {
             throw new IllegalArgumentException("Please follow suit.");
         }

@@ -53,7 +53,7 @@ public class MonteCarloPlayer extends Player {
     }
 
     @Override
-    public void play(Card[] cardsPlayed, CardSuit trump) {
+    public Card selectCard(Card[] cardsPlayed, CardSuit trump) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

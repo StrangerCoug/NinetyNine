@@ -51,7 +51,7 @@ public class RandomPlayer extends Player {
     }
 
     @Override
-    public void play(Card[] cardsPlayed, CardSuit trump) {
+    public Card selectCard(Card[] cardsPlayed, CardSuit trump) {
         Card[] candidateCards = super.getHand().toArray(new Card[super.getHand()
                 .size()]);
         CardSuit suitLed;
@@ -63,14 +63,12 @@ public class RandomPlayer extends Player {
         if (super.hasSuit(suitLed)) {
             for (Card candidateCard : candidateCards) {
                 if (candidateCard.getSuit() == suitLed) {
-                    playCard(candidateCard);
-                    break;
+                    return candidateCard;
                 }
             }
         }
         
-        else
-            playCard(candidateCards[0]);
+        return candidateCards[0];
     }
 
     @Override

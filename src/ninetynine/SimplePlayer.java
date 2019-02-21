@@ -345,7 +345,7 @@ public class SimplePlayer extends Player {
     }
 
     @Override
-    public void play(Card[] cardsPlayed, CardSuit trump) {
+    public Card selectCard(Card[] cardsPlayed, CardSuit trump) {
         if (isTryingToWin && super.getTricksBid() == super.getTricksWon()) {
             isTryingToWin = false;
         }
@@ -355,8 +355,7 @@ public class SimplePlayer extends Player {
             // Try to get rid of non-trump middle cards first.
             for (int i = 0; i < super.getHand().size(); i++) {
                 if (super.getHand().get(i).getSuit() != trump && isMidCard(super.getHand().get(i))) {
-                    playCard(super.getHand().get(i));
-                    return;
+                    return super.getHand().get(i);
                 }
             }
             
@@ -365,46 +364,38 @@ public class SimplePlayer extends Player {
                 /* Go through each suit in descending order and play the highest
                  * card from it. */
                 if (hasSuit(CardSuit.CLUBS)) {
-                    playCard(getHighCard(CardSuit.CLUBS));
-                    return;
+                    return getHighCard(CardSuit.CLUBS);
                 }
             
                 if (hasSuit(CardSuit.HEARTS)) {
-                    playCard(getHighCard(CardSuit.HEARTS));
-                    return;
+                    return getHighCard(CardSuit.HEARTS);
                 }
             
                 if (hasSuit(CardSuit.SPADES)) {
-                    playCard(getHighCard(CardSuit.SPADES));
-                    return;
+                    return getHighCard(CardSuit.SPADES);
                 }
             
                 if (hasSuit(CardSuit.DIAMONDS)) {
-                    playCard(getHighCard(CardSuit.DIAMONDS));
-                    return;
+                    return getHighCard(CardSuit.DIAMONDS);
                 }
             }
             
             /* Go through each suit in descending order and play the lowest card
              * from it. */
             if (hasSuit(CardSuit.CLUBS)) {
-                playCard(getLowCard(CardSuit.CLUBS));
-                return;
+                return getLowCard(CardSuit.CLUBS);
             }
             
             if (hasSuit(CardSuit.HEARTS)) {
-                playCard(getLowCard(CardSuit.HEARTS));
-                return;
+                return getLowCard(CardSuit.HEARTS);
             }
             
             if (hasSuit(CardSuit.SPADES)) {
-                playCard(getLowCard(CardSuit.SPADES));
-                return;
+                return getLowCard(CardSuit.SPADES);
             }
             
             if (hasSuit(CardSuit.DIAMONDS)) {
-                playCard(getLowCard(CardSuit.DIAMONDS));
-                return;
+                return getLowCard(CardSuit.DIAMONDS);
             }
         }
         
@@ -414,17 +405,14 @@ public class SimplePlayer extends Player {
         if (isTryingToWin) {
             if (hasSuit(cardsPlayed[0].getSuit())) {
                 if (cardsPlayed[0].outranks(getHighCard(cardsPlayed[0].getSuit()))) {
-                    playCard(getLowCard(cardsPlayed[0].getSuit()));
-                    return;
+                    return getLowCard(cardsPlayed[0].getSuit());
                 }
-                playCard(getHighCard(cardsPlayed[0].getSuit()));
-                return;
+                return getHighCard(cardsPlayed[0].getSuit());
             }
             
             if (trump != null) {
                 if (hasSuit(trump)) {
-                    playCard(getLowCard(trump));
-                    return;
+                    return getLowCard(trump);
                 }
             }
         }
@@ -432,19 +420,19 @@ public class SimplePlayer extends Player {
         // The remainder is if trying to lose.
         
         if (hasSuit(cardsPlayed[0].getSuit())) {
-            playCard(getHighCard(cardsPlayed[0].getSuit()));
-            return;
+            return getHighCard(cardsPlayed[0].getSuit());
         }
         
         if (trump != null && hasSuit(trump)) {
             for (int i = 1; i < cardsPlayed.length; i++) {
                 if (cardsPlayed[i] != null && cardsPlayed[i].getSuit() == trump)
                 {
-                    playCard(getHighCard(trump));
-                    return;
+                    return getHighCard(trump);
                 }
             }
         }
+        
+        return super.getHand().get(0);
     }
     
     @Override
