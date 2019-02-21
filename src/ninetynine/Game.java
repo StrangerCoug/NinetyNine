@@ -26,6 +26,8 @@
 package ninetynine;
 
 import java.io.IOException;
+import ninetynine.exceptions.CardNotHeldException;
+import ninetynine.exceptions.IllegalCardException;
 
 /**
  *
@@ -81,7 +83,7 @@ public class Game {
         return premiumBidder;
     }
     
-    public void play() throws IOException {
+    public void play() throws IOException, CardNotHeldException, IllegalCardException {
         int numPlayers = players.length; // for code legibility
         boolean gameWon = false;
         int dealerIndex;

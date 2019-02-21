@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2016-2017, Jeffrey Hope
+ * Copyright (c) 2019, Jeffrey Hope
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -23,14 +23,26 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-package ninetynine;
+package ninetynine.exceptions;
 
 /**
  *
  * @author Jeffrey Hope
  */
-
-
-public enum PremiumBid {
-    DECLARE, REVEAL
+public class IllegalCardException extends Exception {
+    public IllegalCardException() {
+        super();
+    }
+    
+    public IllegalCardException(String message) {
+        super(message);
+    }
+    
+    public IllegalCardException(String message, Throwable cause) {
+        super(message, cause);
+    }
+    
+    public IllegalCardException(Throwable cause) {
+        super(cause);
+    } 
 }

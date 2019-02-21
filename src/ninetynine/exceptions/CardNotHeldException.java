@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2016-2017, Jeffrey Hope
+ * Copyright (c) 2019, Jeffrey Hope
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -23,56 +23,26 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-package ninetynine;
+package ninetynine.exceptions;
 
 /**
  *
  * @author Jeffrey Hope
  */
-public class RandomPlayer extends Player {
+public class CardNotHeldException extends Exception {
+    public CardNotHeldException() {
+        super();
+    }
     
-    public RandomPlayer(String name) {
-        super(name);
+    public CardNotHeldException(String message) {
+        super(message);
     }
-
-    @Override
-    public void bid(CardSuit trump) {
-        placeBid(super.getHand().subList(0, 3).toArray(new Card[3]));
+    
+    public CardNotHeldException(String message, Throwable cause) {
+        super(message, cause);
     }
-
-    @Override
-    public boolean wantsToDeclare() {
-        return false;
-    }
-
-    @Override
-    public boolean wantsToReveal() {
-        return false;
-    }
-
-    @Override
-    public Card selectCard(Card[] cardsPlayed, CardSuit trump) {
-        Card[] candidateCards = super.getHand().toArray(new Card[super.getHand()
-                .size()]);
-        CardSuit suitLed;
-        
-        if (cardsPlayed[0] == null)
-            suitLed = null;
-        else suitLed = cardsPlayed[0].getSuit();
-        
-        if (super.hasSuit(suitLed)) {
-            for (Card candidateCard : candidateCards) {
-                if (candidateCard.getSuit() == suitLed) {
-                    return candidateCard;
-                }
-            }
-        }
-        
-        return candidateCards[0];
-    }
-
-    @Override
-    public String getPlayerStrategy() {
-        return "Random";
+    
+    public CardNotHeldException(Throwable cause) {
+        super(cause);
     }
 }

@@ -27,6 +27,8 @@ package ninetynine;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import ninetynine.exceptions.CardNotHeldException;
+import ninetynine.exceptions.IllegalCardException;
 
 /**
  *
@@ -73,9 +75,9 @@ public abstract class Player {
         hand.add(card);
     }
     
-    public abstract void bid(CardSuit trump);
+    public abstract void bid(CardSuit trump) throws CardNotHeldException;
     
-    protected void placeBid(Card[] cards) {
+    protected void placeBid(Card[] cards) throws CardNotHeldException {
         if (cards.length != cardsBid.length) {
             throw new IllegalArgumentException("Wrong number of cards bid.");
         }
@@ -106,32 +108,28 @@ public abstract class Player {
         return tricksBid;
     }
     
-    public void selectAndPlayCard(Card[] cardsPlayed, CardSuit trump) {
-        playCard(selectCard(cardsPlayed, trump));
+    public void selectAndPlayCard(Card[] cardsPlayed, CardSuit trump)
+            throws CardNotHeldException, IllegalCardException {
+        Card cardSelected = selectCard(cardsPlayed, trump);
+        CardSuit suitLed;
+        
+        if (cardsPlayed.length == 0)
+            suitLed = cardSelected.getSuit();
+        else suitLed = cardsPlayed[0].getSuit();
+        
+        playCard(cardSelected, suitLed);
     }
     
     public abstract Card selectCard(Card[] cardsPlayed, CardSuit trump);
     
-    protected void playCard(Card card) {
-        if (!hand.contains(card)) {
-            throw new IllegalArgumentException(name + " tried to play the "
-                    + card.toString() + ", but doesn't have that card.");
+    protected void playCard(Card card, CardSuit suitLed)
+            throws CardNotHeldException, IllegalCardException{ 
+        if (hasSuit(suitLed) && card.getSuit() != suitLed) {
+            throw new IllegalCardException(name + "Please follow suit.");
         }
         
         cardPlayed = card;
         removeCard(card);
-    }
-    
-    protected void playCard(Card card, CardSuit suitLed){ 
-        if (!hand.contains(card)) {
-            throw new IllegalArgumentException("You don't have that card.");
-        }
-        
-        if (hasSuit(suitLed) && card.getSuit() != suitLed) {
-            throw new IllegalArgumentException("Please follow suit.");
-        }
-        
-        playCard(card);
     }
     
     public void awardTrick() {
@@ -170,13 +168,13 @@ public abstract class Player {
         return false;
     }
     
-    private void removeCard(Card card) {
-        int index = hand.indexOf(card);
-        
-        if (index == -1)
-            throw new IllegalArgumentException("Card not held.");
+    private void removeCard(Card card) throws CardNotHeldException {
+        if (hand.contains(card))
+            hand.remove(card);
         else {
-            hand.remove(index);
+            throw new CardNotHeldException("Tried to play the "
+                    + card.toString() + " from "  + name + "'s hand, but card "
+                    + "is not present.");
         }
     }
     

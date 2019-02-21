@@ -27,6 +27,8 @@ package ninetynine;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import ninetynine.exceptions.CardNotHeldException;
+import ninetynine.exceptions.IllegalCardException;
 
 /**
  *
@@ -49,7 +51,7 @@ public class SimplePlayer extends Player {
     }
     
     @Override
-    public void bid(CardSuit trump) {
+    public void bid(CardSuit trump) throws CardNotHeldException {
         Card[] bidCards = new Card[3];
         int minBid = 0, maxBid;
         
@@ -326,7 +328,7 @@ public class SimplePlayer extends Player {
     }
 
     @Override
-    protected void placeBid(Card[] cards) {
+    protected void placeBid(Card[] cards) throws CardNotHeldException {
         super.placeBid(cards);
         
         for (Card card : cards) {
@@ -436,8 +438,9 @@ public class SimplePlayer extends Player {
     }
     
     @Override
-    protected void playCard(Card card) {
-        super.playCard(card);
+    protected void playCard(Card card, CardSuit suitLed)
+            throws CardNotHeldException, IllegalCardException {
+        super.playCard(card, suitLed);
         suitLengths[card.getSuit().ordinal()]--;
     }
     

@@ -56,6 +56,7 @@ public class GameWriter {
      */
     public void print(String s) {
         writer.print(s);
+        System.out.print(s);
     }
     
     /**
@@ -65,6 +66,7 @@ public class GameWriter {
      */
     public void println(String s) {
         writer.println(s);
+        System.out.println(s);
     }
     
     /**
@@ -79,20 +81,28 @@ public class GameWriter {
 
      public void printHandHeader(int handNo) throws IOException {
         writer.print("HAND " + handNo + "\n======");
-            
+        System.out.print("HAND " + handNo + "\n======");    
             for (int i = 0; i < Math.floor(Math.log10(handNo)); i++)
-                writer.print("=");
+                {
+            		writer.print("=");
+            		System.out.print("=");
+                }
             
         writer.print("\n");
+        System.out.print("\n");
     }
     
     public void printTrickHeader(int trickNo) throws IOException {
         writer.print("Trick " + trickNo + "\n-------");
-            
+        System.out.print("Trick " + trickNo + "\n-------");   
             for (int i = 0; i < Math.floor(Math.log10(trickNo)); i++)
-                writer.print("-");
+                {
+            		writer.print("-");
+            		System.out.print("-");
+                }
             
         writer.print("\n");
+        System.out.print("\n");
     }
     
     /* I'm not 100% sure I like this here, to be honest, since it's not properly
@@ -115,6 +125,8 @@ public class GameWriter {
     
     protected void announcePlay(Player player, Card card) {
         writer.println(player.getName() + " plays the " + card.toString() +
+                ".");
+        System.out.println(player.getName() + " plays the " + card.toString() +
                 ".");
     }
 }

@@ -28,6 +28,8 @@ package ninetynine;
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
+import ninetynine.exceptions.CardNotHeldException;
+import ninetynine.exceptions.IllegalCardException;
 
 /**
  *
@@ -40,7 +42,8 @@ public class NinetyNine {
      * 
      * @param args  the command line arguments
      */
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException,
+            CardNotHeldException, IllegalCardException {
         int numPlayers = promptNumberOfPlayers();
         
         Player[] players = new Player[numPlayers];

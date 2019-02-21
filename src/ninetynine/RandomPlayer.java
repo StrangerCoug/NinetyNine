@@ -25,6 +25,8 @@
  */
 package ninetynine;
 
+import ninetynine.exceptions.CardNotHeldException;
+
 /**
  *
  * @author Jeffrey Hope
@@ -36,7 +38,7 @@ public class RandomPlayer extends Player {
     }
 
     @Override
-    public void bid(CardSuit trump) {
+    public void bid(CardSuit trump) throws CardNotHeldException {
         placeBid(super.getHand().subList(0, 3).toArray(new Card[3]));
     }
 
