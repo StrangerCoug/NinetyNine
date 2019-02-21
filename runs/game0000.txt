@@ -1,0 +1,1479 @@
+PLAYERS
+=======
+Player #1: North (Strategy: Simple)
+Player #2: Southeast (Strategy: Simple)
+Player #3: Southwest (Strategy: Simple)
+
+HAND 1
+======
+Initial deal
+------------
+North (Dealer): 6♢ 9♢ K♢ 7♠ 8♠ A♠ 6♡ 8♡ 8♣ 9♣ J♣ K♣ 
+Southeast: 7♢ 8♢ Q♢ A♢ 6♠ 9♠ K♠ 7♡ 10♡ 6♣ 7♣ Q♣ 
+Southwest: 10♢ J♢ 10♠ J♠ Q♠ 9♡ J♡ Q♡ K♡ A♡ 10♣ A♣ 
+
+Current trump: Diamonds
+
+North's bid: K♢ A♠ 8♡ (3 tricks)
+Southeast's bid: 7♢ Q♢ K♠ (1 trick)
+Southwest's bid: 10♠ K♡ A♡ (5 tricks)
+
+Trick 1
+-------
+Southeast plays the Nine of Spades.
+Southwest plays the Queen of Spades.
+North plays the Seven of Spades.
+
+Southwest wins the trick.
+
+Trick 2
+-------
+Southwest plays the Jack of Spades.
+North plays the Eight of Spades.
+Southeast plays the Six of Spades.
+
+Southwest wins the trick.
+
+Trick 3
+-------
+Southwest plays the Nine of Hearts.
+North plays the Six of Hearts.
+Southeast plays the Ten of Hearts.
+
+Southeast wins the trick.
+
+Trick 4
+-------
+Southeast plays the Six of Clubs.
+Southwest plays the Ace of Clubs.
+North plays the King of Clubs.
+
+Southwest wins the trick.
+
+Trick 5
+-------
+Southwest plays the Ten of Clubs.
+North plays the Jack of Clubs.
+Southeast plays the Queen of Clubs.
+
+Southeast wins the trick.
+
+Trick 6
+-------
+Southeast plays the Seven of Clubs.
+Southwest plays the Ten of Diamonds.
+North plays the Nine of Clubs.
+
+Southwest wins the trick.
+
+Trick 7
+-------
+Southwest plays the Jack of Hearts.
+North plays the Six of Diamonds.
+Southeast plays the Seven of Hearts.
+
+North wins the trick.
+
+Trick 8
+-------
+North plays the Eight of Clubs.
+Southeast plays the Ace of Diamonds.
+Southwest plays the Jack of Diamonds.
+
+Southeast wins the trick.
+
+Trick 9
+-------
+Southeast plays the Eight of Diamonds.
+Southwest plays the Queen of Hearts.
+North plays the Nine of Diamonds.
+
+North wins the trick.
+
+Results
+-------
+North won 2 tricks and so failed their bid and now has 2 points.
+Southeast won 3 tricks and so failed their bid and now has 3 points.
+Southwest won 4 tricks and so failed their bid and now has 4 points.
+
+HAND 2
+======
+Initial deal
+------------
+North: J♢ 7♠ 9♠ K♠ 6♡ J♡ K♡ 6♣ 10♣ J♣ Q♣ A♣ 
+Southeast (Dealer): 7♢ 9♢ 10♢ K♢ A♢ 6♠ 10♠ J♠ Q♠ 9♡ Q♡ A♡ 
+Southwest: 6♢ 8♢ Q♢ 8♠ A♠ 7♡ 8♡ 10♡ 7♣ 8♣ 9♣ K♣ 
+
+Current trump: Diamonds
+
+North's bid: J♢ J♣ A♣ (6 tricks)
+Southeast's bid: Q♠ 9♡ Q♡ (5 tricks)
+Southwest's bid: A♠ 7♡ 10♡ (5 tricks)
+
+Trick 1
+-------
+Southwest plays the Nine of Clubs.
+North plays the Queen of Clubs.
+Southeast plays the Seven of Diamonds.
+
+Southeast wins the trick.
+
+Trick 2
+-------
+Southeast plays the Jack of Spades.
+Southwest plays the Eight of Spades.
+North plays the King of Spades.
+
+North wins the trick.
+
+Trick 3
+-------
+North plays the Ten of Clubs.
+Southeast plays the Ace of Diamonds.
+Southwest plays the King of Clubs.
+
+Southeast wins the trick.
+
+Trick 4
+-------
+Southeast plays the Ten of Spades.
+Southwest plays the Six of Diamonds.
+North plays the Seven of Spades.
+
+Southwest wins the trick.
+
+Trick 5
+-------
+Southwest plays the Eight of Clubs.
+North plays the Six of Clubs.
+Southeast plays the Six of Spades.
+
+Southwest wins the trick.
+
+Trick 6
+-------
+Southwest plays the Seven of Clubs.
+North plays the Nine of Spades.
+Southeast plays the Ten of Diamonds.
+
+Southeast wins the trick.
+
+Trick 7
+-------
+Southeast plays the Ace of Hearts.
+Southwest plays the Eight of Hearts.
+North plays the Six of Hearts.
+
+Southeast wins the trick.
+
+Trick 8
+-------
+Southeast plays the Nine of Diamonds.
+Southwest plays the Queen of Diamonds.
+North plays the King of Hearts.
+
+Southwest wins the trick.
+
+Trick 9
+-------
+Southwest plays the Eight of Diamonds.
+North plays the Jack of Hearts.
+Southeast plays the King of Diamonds.
+
+Southeast wins the trick.
+
+Results
+-------
+North won 1 trick and so failed their bid and now has 3 points.
+Southeast won 5 tricks and so made their bid and now has 38 points.
+Southwest won 3 tricks and so failed their bid and now has 7 points.
+
+HAND 3
+======
+Initial deal
+------------
+North: 7♢ J♢ 8♠ Q♠ A♠ 8♡ 9♡ 10♡ K♡ 6♣ 9♣ J♣ 
+Southeast: 8♢ 9♢ K♢ A♢ 6♠ 9♠ J♠ 7♡ Q♡ 7♣ 8♣ 10♣ 
+Southwest (Dealer): 6♢ 10♢ Q♢ 7♠ 10♠ K♠ 6♡ J♡ A♡ Q♣ K♣ A♣ 
+
+Current trump: Spades
+
+North's bid: 8♠ A♠ 9♡ (4 tricks)
+Southeast's bid: 8♢ J♠ 10♣ (4 tricks)
+Southwest's bid: 6♡ J♡ A♡ (6 tricks)
+
+Trick 1
+-------
+North plays the Nine of Clubs.
+Southeast plays the Eight of Clubs.
+Southwest plays the Ace of Clubs.
+
+Southwest wins the trick.
+
+Trick 2
+-------
+Southwest plays the Ten of Diamonds.
+North plays the Jack of Diamonds.
+Southeast plays the Ace of Diamonds.
+
+Southeast wins the trick.
+
+Trick 3
+-------
+Southeast plays the Nine of Diamonds.
+Southwest plays the Queen of Diamonds.
+North plays the Seven of Diamonds.
+
+Southwest wins the trick.
+
+Trick 4
+-------
+Southwest plays the King of Clubs.
+North plays the Six of Clubs.
+Southeast plays the Seven of Clubs.
+
+Southwest wins the trick.
+
+Trick 5
+-------
+Southwest plays the Queen of Clubs.
+North plays the Jack of Clubs.
+Southeast plays the Six of Spades.
+
+Southeast wins the trick.
+
+Trick 6
+-------
+Southeast plays the Seven of Hearts.
+Southwest plays the Seven of Spades.
+North plays the King of Hearts.
+
+Southwest wins the trick.
+
+Trick 7
+-------
+Southwest plays the King of Spades.
+North plays the Queen of Spades.
+Southeast plays the Nine of Spades.
+
+Southwest wins the trick.
+
+Trick 8
+-------
+Southwest plays the Ten of Spades.
+North plays the Ten of Hearts.
+Southeast plays the King of Diamonds.
+
+Southwest wins the trick.
+
+Trick 9
+-------
+Southwest plays the Six of Diamonds.
+North plays the Eight of Hearts.
+Southeast plays the Queen of Hearts.
+
+Southwest wins the trick.
+
+Results
+-------
+North won 0 tricks and so failed their bid and now has 3 points.
+Southeast won 2 tricks and so failed their bid and now has 40 points.
+Southwest won 7 tricks and so failed their bid and now has 14 points.
+
+HAND 4
+======
+Initial deal
+------------
+North (Dealer): J♢ K♢ A♢ 7♠ 9♠ K♠ 6♡ 8♡ K♡ 8♣ Q♣ A♣ 
+Southeast: 6♢ 9♢ 10♢ 10♠ J♠ Q♠ A♠ 9♡ J♡ 6♣ 10♣ K♣ 
+Southwest: 7♢ 8♢ Q♢ 6♠ 8♠ 7♡ 10♡ Q♡ A♡ 7♣ 9♣ J♣ 
+
+Current trump: Diamonds
+
+North's bid: 7♠ 8♣ Q♣ (7 tricks)
+Southeast's bid: J♠ 6♣ 10♣ (7 tricks)
+Southwest's bid: 8♢ 8♠ A♡ (3 tricks)
+
+Trick 1
+-------
+Southeast plays the Ten of Spades.
+Southwest plays the Six of Spades.
+North plays the King of Spades.
+
+North wins the trick.
+
+Trick 2
+-------
+North plays the Nine of Spades.
+Southeast plays the Ace of Spades.
+Southwest plays the Nine of Clubs.
+
+Southeast wins the trick.
+
+Trick 3
+-------
+Southeast plays the Nine of Hearts.
+Southwest plays the Queen of Hearts.
+North plays the King of Hearts.
+
+North wins the trick.
+
+Trick 4
+-------
+North plays the Ace of Clubs.
+Southeast plays the King of Clubs.
+Southwest plays the Jack of Clubs.
+
+North wins the trick.
+
+Trick 5
+-------
+North plays the Eight of Hearts.
+Southeast plays the Jack of Hearts.
+Southwest plays the Ten of Hearts.
+
+Southeast wins the trick.
+
+Trick 6
+-------
+Southeast plays the Queen of Spades.
+Southwest plays the Seven of Clubs.
+North plays the Jack of Diamonds.
+
+North wins the trick.
+
+Trick 7
+-------
+North plays the Six of Hearts.
+Southeast plays the Ten of Diamonds.
+Southwest plays the Seven of Hearts.
+
+Southeast wins the trick.
+
+Trick 8
+-------
+Southeast plays the Six of Diamonds.
+Southwest plays the Queen of Diamonds.
+North plays the Ace of Diamonds.
+
+North wins the trick.
+
+Trick 9
+-------
+North plays the King of Diamonds.
+Southeast plays the Nine of Diamonds.
+Southwest plays the Seven of Diamonds.
+
+North wins the trick.
+
+Results
+-------
+North won 6 tricks and so failed their bid and now has 9 points.
+Southeast won 3 tricks and so failed their bid and now has 43 points.
+Southwest won 0 tricks and so failed their bid and now has 14 points.
+
+HAND 5
+======
+Initial deal
+------------
+North: 10♢ K♢ A♢ 8♠ 9♠ A♠ 6♡ 8♡ 10♡ A♡ 9♣ K♣ 
+Southeast (Dealer): 8♢ 9♢ Q♢ 6♠ 7♠ Q♠ K♠ 9♡ 6♣ 7♣ 10♣ Q♣ 
+Southwest: 6♢ 7♢ J♢ 10♠ J♠ 7♡ J♡ Q♡ K♡ 8♣ J♣ A♣ 
+
+Current trump: Diamonds
+
+North's bid: A♠ 10♡ A♡ (5 tricks)
+Southeast's bid: 8♢ Q♠ 7♣ (4 tricks)
+Southwest's bid: 7♢ 7♡ J♡ (4 tricks)
+
+Trick 1
+-------
+Southwest plays the Ten of Spades.
+North plays the Eight of Spades.
+Southeast plays the King of Spades.
+
+Southeast wins the trick.
+
+Trick 2
+-------
+Southeast plays the Nine of Hearts.
+Southwest plays the King of Hearts.
+North plays the Six of Hearts.
+
+Southwest wins the trick.
+
+Trick 3
+-------
+Southwest plays the Jack of Clubs.
+North plays the King of Clubs.
+Southeast plays the Queen of Clubs.
+
+North wins the trick.
+
+Trick 4
+-------
+North plays the Nine of Spades.
+Southeast plays the Seven of Spades.
+Southwest plays the Jack of Spades.
+
+Southwest wins the trick.
+
+Trick 5
+-------
+Southwest plays the Eight of Clubs.
+North plays the Nine of Clubs.
+Southeast plays the Ten of Clubs.
+
+Southeast wins the trick.
+
+Trick 6
+-------
+Southeast plays the Six of Clubs.
+Southwest plays the Ace of Clubs.
+North plays the Ten of Diamonds.
+
+North wins the trick.
+
+Trick 7
+-------
+North plays the Eight of Hearts.
+Southeast plays the Nine of Diamonds.
+Southwest plays the Queen of Hearts.
+
+Southeast wins the trick.
+
+Trick 8
+-------
+Southeast plays the Six of Spades.
+Southwest plays the Six of Diamonds.
+North plays the King of Diamonds.
+
+North wins the trick.
+
+Trick 9
+-------
+North plays the Ace of Diamonds.
+Southeast plays the Queen of Diamonds.
+Southwest plays the Jack of Diamonds.
+
+North wins the trick.
+
+Results
+-------
+North won 4 tricks and so failed their bid and now has 13 points.
+Southeast won 3 tricks and so failed their bid and now has 46 points.
+Southwest won 2 tricks and so failed their bid and now has 16 points.
+
+HAND 6
+======
+Initial deal
+------------
+North: 6♢ 10♢ 7♠ 9♠ J♠ 7♡ 10♡ K♡ 7♣ 9♣ 10♣ A♣ 
+Southeast: 9♢ A♢ 6♠ 8♠ 10♠ Q♠ K♠ 9♡ J♡ Q♡ 6♣ K♣ 
+Southwest (Dealer): 7♢ 8♢ J♢ Q♢ K♢ A♠ 6♡ 8♡ A♡ 8♣ J♣ Q♣ 
+
+Current trump: Diamonds
+
+North's bid: 7♠ 9♠ 10♣ (5 tricks)
+Southeast's bid: 10♠ Q♡ K♣ (6 tricks)
+Southwest's bid: 8♢ Q♢ 6♡ (2 tricks)
+
+Trick 1
+-------
+North plays the Ten of Hearts.
+Southeast plays the Jack of Hearts.
+Southwest plays the Ace of Hearts.
+
+Southwest wins the trick.
+
+Trick 2
+-------
+Southwest plays the Jack of Clubs.
+North plays the Ace of Clubs.
+Southeast plays the Six of Clubs.
+
+North wins the trick.
+
+Trick 3
+-------
+North plays the Jack of Spades.
+Southeast plays the King of Spades.
+Southwest plays the Ace of Spades.
+
+Southwest wins the trick.
+
+Trick 4
+-------
+Southwest plays the Eight of Clubs.
+North plays the Nine of Clubs.
+Southeast plays the Queen of Spades.
+
+North wins the trick.
+
+Trick 5
+-------
+North plays the Seven of Clubs.
+Southeast plays the Eight of Spades.
+Southwest plays the Queen of Clubs.
+
+Southwest wins the trick.
+
+Trick 6
+-------
+Southwest plays the Eight of Hearts.
+North plays the King of Hearts.
+Southeast plays the Nine of Hearts.
+
+North wins the trick.
+
+Trick 7
+-------
+North plays the Seven of Hearts.
+Southeast plays the Six of Spades.
+Southwest plays the Seven of Diamonds.
+
+Southwest wins the trick.
+
+Trick 8
+-------
+Southwest plays the Jack of Diamonds.
+North plays the Six of Diamonds.
+Southeast plays the Ace of Diamonds.
+
+Southeast wins the trick.
+
+Trick 9
+-------
+Southeast plays the Nine of Diamonds.
+Southwest plays the King of Diamonds.
+North plays the Ten of Diamonds.
+
+Southwest wins the trick.
+
+Results
+-------
+North won 3 tricks and so failed their bid and now has 16 points.
+Southeast won 1 trick and so failed their bid and now has 47 points.
+Southwest won 5 tricks and so failed their bid and now has 21 points.
+
+HAND 7
+======
+Initial deal
+------------
+North (Dealer): J♢ 6♠ 9♠ Q♠ 6♡ 9♡ Q♡ K♡ 7♣ 8♣ 10♣ J♣ 
+Southeast: 6♢ 7♢ 10♢ A♢ 7♠ 8♠ 10♠ J♠ 10♡ A♡ K♣ A♣ 
+Southwest: 8♢ 9♢ Q♢ K♢ K♠ A♠ 7♡ 8♡ J♡ 6♣ 9♣ Q♣ 
+
+Current trump: Diamonds
+
+North's bid: J♢ 6♠ 8♣ (4 tricks)
+Southeast's bid: 8♠ J♠ 10♡ (4 tricks)
+Southwest's bid: Q♢ 8♡ 9♣ (5 tricks)
+
+Trick 1
+-------
+Southeast plays the Ten of Spades.
+Southwest plays the Ace of Spades.
+North plays the Queen of Spades.
+
+Southwest wins the trick.
+
+Trick 2
+-------
+Southwest plays the Jack of Hearts.
+North plays the King of Hearts.
+Southeast plays the Ace of Hearts.
+
+Southeast wins the trick.
+
+Trick 3
+-------
+Southeast plays the King of Clubs.
+Southwest plays the Queen of Clubs.
+North plays the Seven of Clubs.
+
+Southeast wins the trick.
+
+Trick 4
+-------
+Southeast plays the Ace of Clubs.
+Southwest plays the Six of Clubs.
+North plays the Ten of Clubs.
+
+Southeast wins the trick.
+
+Trick 5
+-------
+Southeast plays the Seven of Spades.
+Southwest plays the King of Spades.
+North plays the Nine of Spades.
+
+Southwest wins the trick.
+
+Trick 6
+-------
+Southwest plays the Seven of Hearts.
+North plays the Queen of Hearts.
+Southeast plays the Six of Diamonds.
+
+Southeast wins the trick.
+
+Trick 7
+-------
+Southeast plays the Seven of Diamonds.
+Southwest plays the King of Diamonds.
+North plays the Six of Hearts.
+
+Southwest wins the trick.
+
+Trick 8
+-------
+Southwest plays the Eight of Diamonds.
+North plays the Nine of Hearts.
+Southeast plays the Ace of Diamonds.
+
+Southeast wins the trick.
+
+Trick 9
+-------
+Southeast plays the Ten of Diamonds.
+Southwest plays the Nine of Diamonds.
+North plays the Jack of Clubs.
+
+Southeast wins the trick.
+
+Results
+-------
+North won 0 tricks and so failed their bid and now has 16 points.
+Southeast won 6 tricks and so failed their bid and now has 53 points.
+Southwest won 3 tricks and so failed their bid and now has 24 points.
+
+HAND 8
+======
+Initial deal
+------------
+North: 9♢ 10♢ J♢ 6♠ J♠ A♠ 9♡ Q♡ 10♣ J♣ Q♣ A♣ 
+Southeast (Dealer): 6♢ 7♢ 8♢ Q♢ K♢ 7♠ 9♠ K♠ 6♡ 10♡ 9♣ K♣ 
+Southwest: A♢ 8♠ 10♠ Q♠ 7♡ 8♡ J♡ K♡ A♡ 6♣ 7♣ 8♣ 
+
+Current trump: Diamonds
+
+North's bid: 6♠ A♠ Q♡ (4 tricks)
+Southeast's bid: Q♢ 7♠ K♣ (4 tricks)
+Southwest's bid: 8♠ J♡ 7♣ (6 tricks)
+
+Trick 1
+-------
+Southwest plays the Ten of Spades.
+North plays the Jack of Spades.
+Southeast plays the King of Spades.
+
+Southeast wins the trick.
+
+Trick 2
+-------
+Southeast plays the Nine of Clubs.
+Southwest plays the Eight of Clubs.
+North plays the Ace of Clubs.
+
+North wins the trick.
+
+Trick 3
+-------
+North plays the Jack of Clubs.
+Southeast plays the Six of Hearts.
+Southwest plays the Six of Clubs.
+
+North wins the trick.
+
+Trick 4
+-------
+North plays the Nine of Hearts.
+Southeast plays the Ten of Hearts.
+Southwest plays the Ace of Hearts.
+
+Southwest wins the trick.
+
+Trick 5
+-------
+Southwest plays the Seven of Hearts.
+North plays the Nine of Diamonds.
+Southeast plays the King of Diamonds.
+
+Southeast wins the trick.
+
+Trick 6
+-------
+Southeast plays the Nine of Spades.
+Southwest plays the Queen of Spades.
+North plays the Ten of Diamonds.
+
+North wins the trick.
+
+Trick 7
+-------
+North plays the Ten of Clubs.
+Southeast plays the Six of Diamonds.
+Southwest plays the Ace of Diamonds.
+
+Southwest wins the trick.
+
+Trick 8
+-------
+Southwest plays the Eight of Hearts.
+North plays the Jack of Diamonds.
+Southeast plays the Eight of Diamonds.
+
+North wins the trick.
+
+Trick 9
+-------
+North plays the Queen of Clubs.
+Southeast plays the Seven of Diamonds.
+Southwest plays the King of Hearts.
+
+Southeast wins the trick.
+
+Results
+-------
+North won 4 tricks and so made their bid and now has 50 points.
+Southeast won 3 tricks and so failed their bid and now has 56 points.
+Southwest won 2 tricks and so failed their bid and now has 26 points.
+
+HAND 9
+======
+Initial deal
+------------
+North: 7♢ 8♢ Q♢ K♢ 7♠ 10♠ J♠ 6♡ 8♡ J♡ 7♣ Q♣ 
+Southeast: J♢ A♢ 9♠ Q♠ K♠ 7♡ 10♡ K♡ 8♣ 9♣ 10♣ A♣ 
+Southwest (Dealer): 6♢ 9♢ 10♢ 6♠ 8♠ A♠ 9♡ Q♡ A♡ 6♣ J♣ K♣ 
+
+Current trump: Spades
+
+North's bid: 7♢ K♢ Q♣ (3 tricks)
+Southeast's bid: Q♠ K♠ 9♣ (5 tricks)
+Southwest's bid: 10♢ Q♡ 6♣ (5 tricks)
+
+Trick 1
+-------
+North plays the Jack of Hearts.
+Southeast plays the King of Hearts.
+Southwest plays the Ace of Hearts.
+
+Southwest wins the trick.
+
+Trick 2
+-------
+Southwest plays the Nine of Diamonds.
+North plays the Queen of Diamonds.
+Southeast plays the Ace of Diamonds.
+
+Southeast wins the trick.
+
+Trick 3
+-------
+Southeast plays the Ten of Clubs.
+Southwest plays the King of Clubs.
+North plays the Seven of Clubs.
+
+Southwest wins the trick.
+
+Trick 4
+-------
+Southwest plays the Nine of Hearts.
+North plays the Eight of Hearts.
+Southeast plays the Ten of Hearts.
+
+Southeast wins the trick.
+
+Trick 5
+-------
+Southeast plays the Jack of Diamonds.
+Southwest plays the Six of Diamonds.
+North plays the Eight of Diamonds.
+
+Southeast wins the trick.
+
+Trick 6
+-------
+Southeast plays the Eight of Clubs.
+Southwest plays the Jack of Clubs.
+North plays the Ten of Spades.
+
+North wins the trick.
+
+Trick 7
+-------
+North plays the Six of Hearts.
+Southeast plays the Seven of Hearts.
+Southwest plays the Eight of Spades.
+
+Southwest wins the trick.
+
+Trick 8
+-------
+Southwest plays the Six of Spades.
+North plays the Jack of Spades.
+Southeast plays the Nine of Spades.
+
+North wins the trick.
+
+Trick 9
+-------
+North plays the Seven of Spades.
+Southeast plays the Ace of Clubs.
+Southwest plays the Ace of Spades.
+
+Southwest wins the trick.
+
+Results
+-------
+North won 2 tricks and so failed their bid and now has 52 points.
+Southeast won 3 tricks and so failed their bid and now has 59 points.
+Southwest won 4 tricks and so failed their bid and now has 30 points.
+
+HAND 10
+=======
+Initial deal
+------------
+North (Dealer): 8♢ 10♢ K♢ 10♠ K♠ 6♡ 8♡ K♡ 6♣ 10♣ J♣ Q♣ 
+Southeast: 6♢ J♢ A♢ 6♠ 7♠ 8♠ 9♠ Q♠ A♠ 7♡ 9♡ 10♡ 
+Southwest: 7♢ 9♢ Q♢ J♠ J♡ Q♡ A♡ 7♣ 8♣ 9♣ K♣ A♣ 
+
+Current trump: Diamonds
+
+North's bid: 10♠ 6♡ K♡ (5 tricks)
+Southeast's bid: 6♠ 8♠ 9♡ (4 tricks)
+Southwest's bid: J♠ A♡ 8♣ (6 tricks)
+
+Trick 1
+-------
+Southeast plays the Ten of Hearts.
+Southwest plays the Queen of Hearts.
+North plays the Eight of Hearts.
+
+Southwest wins the trick.
+
+Trick 2
+-------
+Southwest plays the Nine of Clubs.
+North plays the Queen of Clubs.
+Southeast plays the Seven of Hearts.
+
+North wins the trick.
+
+Trick 3
+-------
+North plays the Ten of Clubs.
+Southeast plays the Nine of Spades.
+Southwest plays the Ace of Clubs.
+
+Southwest wins the trick.
+
+Trick 4
+-------
+Southwest plays the Jack of Hearts.
+North plays the Six of Clubs.
+Southeast plays the Jack of Diamonds.
+
+Southeast wins the trick.
+
+Trick 5
+-------
+Southeast plays the Seven of Spades.
+Southwest plays the Seven of Diamonds.
+North plays the King of Spades.
+
+Southwest wins the trick.
+
+Trick 6
+-------
+Southwest plays the Seven of Clubs.
+North plays the Jack of Clubs.
+Southeast plays the Queen of Spades.
+
+North wins the trick.
+
+Trick 7
+-------
+North plays the Eight of Diamonds.
+Southeast plays the Ace of Diamonds.
+Southwest plays the Queen of Diamonds.
+
+Southeast wins the trick.
+
+Trick 8
+-------
+Southeast plays the Ace of Spades.
+Southwest plays the King of Clubs.
+North plays the Ten of Diamonds.
+
+North wins the trick.
+
+Trick 9
+-------
+North plays the King of Diamonds.
+Southeast plays the Six of Diamonds.
+Southwest plays the Nine of Diamonds.
+
+North wins the trick.
+
+Results
+-------
+North won 4 tricks and so failed their bid and now has 56 points.
+Southeast won 2 tricks and so failed their bid and now has 61 points.
+Southwest won 3 tricks and so failed their bid and now has 33 points.
+
+HAND 11
+=======
+Initial deal
+------------
+North: Q♢ K♢ 10♠ 7♡ 10♡ Q♡ K♡ A♡ 6♣ 7♣ Q♣ A♣ 
+Southeast (Dealer): 6♢ 9♢ 10♢ A♢ 8♠ 9♠ J♠ 6♡ 8♡ J♡ 9♣ 10♣ 
+Southwest: 7♢ 8♢ J♢ 6♠ 7♠ Q♠ K♠ A♠ 9♡ 8♣ J♣ K♣ 
+
+Current trump: Diamonds
+
+North's bid: K♢ Q♡ 6♣ (5 tricks)
+Southeast's bid: A♢ J♠ 9♣ (4 tricks)
+Southwest's bid: 8♢ K♠ K♣ (4 tricks)
+
+Trick 1
+-------
+Southwest plays the Nine of Hearts.
+North plays the Ace of Hearts.
+Southeast plays the Jack of Hearts.
+
+North wins the trick.
+
+Trick 2
+-------
+North plays the Ten of Spades.
+Southeast plays the Nine of Spades.
+Southwest plays the Ace of Spades.
+
+Southwest wins the trick.
+
+Trick 3
+-------
+Southwest plays the Jack of Clubs.
+North plays the Ace of Clubs.
+Southeast plays the Ten of Clubs.
+
+North wins the trick.
+
+Trick 4
+-------
+North plays the Ten of Hearts.
+Southeast plays the Eight of Hearts.
+Southwest plays the Six of Spades.
+
+North wins the trick.
+
+Trick 5
+-------
+North plays the Seven of Clubs.
+Southeast plays the Six of Diamonds.
+Southwest plays the Eight of Clubs.
+
+Southeast wins the trick.
+
+Trick 6
+-------
+Southeast plays the Six of Hearts.
+Southwest plays the Seven of Diamonds.
+North plays the King of Hearts.
+
+Southwest wins the trick.
+
+Trick 7
+-------
+Southwest plays the Seven of Spades.
+North plays the Queen of Diamonds.
+Southeast plays the Eight of Spades.
+
+North wins the trick.
+
+Trick 8
+-------
+North plays the Queen of Clubs.
+Southeast plays the Ten of Diamonds.
+Southwest plays the Jack of Diamonds.
+
+Southwest wins the trick.
+
+Trick 9
+-------
+Southwest plays the Queen of Spades.
+North plays the Seven of Hearts.
+Southeast plays the Nine of Diamonds.
+
+Southeast wins the trick.
+
+Results
+-------
+North won 4 tricks and so failed their bid and now has 60 points.
+Southeast won 2 tricks and so failed their bid and now has 63 points.
+Southwest won 3 tricks and so failed their bid and now has 36 points.
+
+HAND 12
+=======
+Initial deal
+------------
+North: 10♢ K♢ A♢ J♠ Q♠ 7♡ 8♡ 9♡ K♡ A♡ 6♣ 7♣ 
+Southeast: 7♢ 8♢ 9♢ 6♠ 9♠ K♠ A♠ 6♡ Q♡ J♣ Q♣ A♣ 
+Southwest (Dealer): 6♢ J♢ Q♢ 7♠ 8♠ 10♠ 10♡ J♡ 8♣ 9♣ 10♣ K♣ 
+
+Current trump: Diamonds
+
+North's bid: J♠ K♡ A♡ (5 tricks)
+Southeast's bid: 9♠ A♠ J♣ (5 tricks)
+Southwest's bid: Q♢ 10♡ 8♣ (5 tricks)
+
+Trick 1
+-------
+North plays the Nine of Hearts.
+Southeast plays the Queen of Hearts.
+Southwest plays the Jack of Hearts.
+
+Southeast wins the trick.
+
+Trick 2
+-------
+Southeast plays the Queen of Clubs.
+Southwest plays the King of Clubs.
+North plays the Seven of Clubs.
+
+Southwest wins the trick.
+
+Trick 3
+-------
+Southwest plays the Ten of Clubs.
+North plays the Six of Clubs.
+Southeast plays the Ace of Clubs.
+
+Southeast wins the trick.
+
+Trick 4
+-------
+Southeast plays the Six of Hearts.
+Southwest plays the Ten of Spades.
+North plays the Eight of Hearts.
+
+North wins the trick.
+
+Trick 5
+-------
+North plays the Seven of Hearts.
+Southeast plays the Seven of Diamonds.
+Southwest plays the Jack of Diamonds.
+
+Southwest wins the trick.
+
+Trick 6
+-------
+Southwest plays the Nine of Clubs.
+North plays the Ace of Diamonds.
+Southeast plays the Nine of Diamonds.
+
+North wins the trick.
+
+Trick 7
+-------
+North plays the Queen of Spades.
+Southeast plays the King of Spades.
+Southwest plays the Eight of Spades.
+
+Southeast wins the trick.
+
+Trick 8
+-------
+Southeast plays the Six of Spades.
+Southwest plays the Seven of Spades.
+North plays the King of Diamonds.
+
+North wins the trick.
+
+Trick 9
+-------
+North plays the Ten of Diamonds.
+Southeast plays the Eight of Diamonds.
+Southwest plays the Six of Diamonds.
+
+North wins the trick.
+
+Results
+-------
+North won 4 tricks and so failed their bid and now has 64 points.
+Southeast won 3 tricks and so failed their bid and now has 66 points.
+Southwest won 2 tricks and so failed their bid and now has 38 points.
+
+HAND 13
+=======
+Initial deal
+------------
+North (Dealer): 8♢ Q♢ K♢ A♢ 6♠ 8♠ 9♠ J♠ 7♡ 8♡ 9♡ 6♣ 
+Southeast: 6♢ 7♢ 9♢ 7♠ A♠ 6♡ Q♡ A♡ 10♣ Q♣ K♣ A♣ 
+Southwest: 10♢ J♢ 10♠ Q♠ K♠ 10♡ J♡ K♡ 7♣ 8♣ 9♣ J♣ 
+
+Current trump: Diamonds
+
+North's bid: 8♢ 6♠ 8♡ (3 tricks)
+Southeast's bid: 7♢ A♠ K♣ (4 tricks)
+Southwest's bid: J♢ 7♣ 9♣ (6 tricks)
+
+Trick 1
+-------
+Southeast plays the Ten of Clubs.
+Southwest plays the Jack of Clubs.
+North plays the Six of Clubs.
+
+Southwest wins the trick.
+
+Trick 2
+-------
+Southwest plays the Jack of Hearts.
+North plays the Nine of Hearts.
+Southeast plays the Ace of Hearts.
+
+Southeast wins the trick.
+
+Trick 3
+-------
+Southeast plays the Queen of Clubs.
+Southwest plays the Eight of Clubs.
+North plays the King of Diamonds.
+
+North wins the trick.
+
+Trick 4
+-------
+North plays the Jack of Spades.
+Southeast plays the Seven of Spades.
+Southwest plays the King of Spades.
+
+Southwest wins the trick.
+
+Trick 5
+-------
+Southwest plays the Ten of Hearts.
+North plays the Seven of Hearts.
+Southeast plays the Queen of Hearts.
+
+Southeast wins the trick.
+
+Trick 6
+-------
+Southeast plays the Ace of Clubs.
+Southwest plays the Ten of Diamonds.
+North plays the Ace of Diamonds.
+
+North wins the trick.
+
+Trick 7
+-------
+North plays the Nine of Spades.
+Southeast plays the Nine of Diamonds.
+Southwest plays the Queen of Spades.
+
+Southeast wins the trick.
+
+Trick 8
+-------
+Southeast plays the Six of Hearts.
+Southwest plays the King of Hearts.
+North plays the Queen of Diamonds.
+
+North wins the trick.
+
+Trick 9
+-------
+North plays the Eight of Spades.
+Southeast plays the Six of Diamonds.
+Southwest plays the Ten of Spades.
+
+Southeast wins the trick.
+
+Results
+-------
+North won 3 tricks and so made their bid and now has 87 points.
+Southeast won 4 tricks and so made their bid and now has 90 points.
+Southwest won 2 tricks and so failed their bid and now has 40 points.
+
+HAND 14
+=======
+Initial deal
+------------
+North: 10♢ J♢ K♢ A♢ 6♠ 7♠ Q♠ 9♡ K♡ 9♣ 10♣ A♣ 
+Southeast (Dealer): 6♢ 8♢ 9♢ Q♢ 10♠ K♠ A♠ 7♡ 10♡ 6♣ 7♣ 8♣ 
+Southwest: 7♢ 8♠ 9♠ J♠ 6♡ 8♡ J♡ Q♡ A♡ J♣ Q♣ K♣ 
+
+Current trump: Hearts
+
+North's bid: 7♠ Q♠ 10♣ (5 tricks)
+Southeast's bid: 8♢ 9♢ 6♣ (3 tricks)
+Southwest's bid: 7♢ 9♠ Q♣ (4 tricks)
+
+Trick 1
+-------
+Southwest plays the Jack of Clubs.
+North plays the Ace of Clubs.
+Southeast plays the Eight of Clubs.
+
+North wins the trick.
+
+Trick 2
+-------
+North plays the Ten of Diamonds.
+Southeast plays the Queen of Diamonds.
+Southwest plays the King of Clubs.
+
+Southeast wins the trick.
+
+Trick 3
+-------
+Southeast plays the Ten of Spades.
+Southwest plays the Jack of Spades.
+North plays the Six of Spades.
+
+Southwest wins the trick.
+
+Trick 4
+-------
+Southwest plays the Six of Hearts.
+North plays the King of Hearts.
+Southeast plays the Ten of Hearts.
+
+North wins the trick.
+
+Trick 5
+-------
+North plays the Jack of Diamonds.
+Southeast plays the Six of Diamonds.
+Southwest plays the Ace of Hearts.
+
+Southwest wins the trick.
+
+Trick 6
+-------
+Southwest plays the Eight of Hearts.
+North plays the Nine of Hearts.
+Southeast plays the Seven of Hearts.
+
+North wins the trick.
+
+Trick 7
+-------
+North plays the Nine of Clubs.
+Southeast plays the Seven of Clubs.
+Southwest plays the Jack of Hearts.
+
+Southwest wins the trick.
+
+Trick 8
+-------
+Southwest plays the Queen of Hearts.
+North plays the King of Diamonds.
+Southeast plays the Ace of Spades.
+
+Southwest wins the trick.
+
+Trick 9
+-------
+Southwest plays the Eight of Spades.
+North plays the Ace of Diamonds.
+Southeast plays the King of Spades.
+
+Southeast wins the trick.
+
+Results
+-------
+North won 3 tricks and so failed their bid and now has 90 points.
+Southeast won 2 tricks and so failed their bid and now has 92 points.
+Southwest won 4 tricks and so made their bid and now has 74 points.
+
+HAND 15
+=======
+Initial deal
+------------
+North: 10♢ Q♢ 6♠ 10♠ 6♡ 8♡ K♡ 6♣ 10♣ J♣ Q♣ K♣ 
+Southeast: 8♢ 9♢ A♢ 9♠ J♠ K♠ 9♡ J♡ Q♡ A♡ 8♣ A♣ 
+Southwest (Dealer): 6♢ 7♢ J♢ K♢ 7♠ 8♠ Q♠ A♠ 7♡ 10♡ 7♣ 9♣ 
+
+Current trump: Spades
+
+North's bid: Q♢ 6♡ 6♣ (5 tricks)
+Southeast's bid: 9♠ Q♡ A♡ (5 tricks)
+Southwest's bid: K♢ 8♠ 10♡ (3 tricks)
+
+Trick 1
+-------
+North plays the Jack of Clubs.
+Southeast plays the Ace of Clubs.
+Southwest plays the Nine of Clubs.
+
+Southeast wins the trick.
+
+Trick 2
+-------
+Southeast plays the Nine of Hearts.
+Southwest plays the Seven of Hearts.
+North plays the King of Hearts.
+
+North wins the trick.
+
+Trick 3
+-------
+North plays the Ten of Clubs.
+Southeast plays the Eight of Clubs.
+Southwest plays the Seven of Clubs.
+
+North wins the trick.
+
+Trick 4
+-------
+North plays the Ten of Diamonds.
+Southeast plays the Ace of Diamonds.
+Southwest plays the Jack of Diamonds.
+
+Southeast wins the trick.
+
+Trick 5
+-------
+Southeast plays the Nine of Diamonds.
+Southwest plays the Seven of Diamonds.
+North plays the Eight of Hearts.
+
+Southeast wins the trick.
+
+Trick 6
+-------
+Southeast plays the Jack of Hearts.
+Southwest plays the Seven of Spades.
+North plays the Ten of Spades.
+
+North wins the trick.
+
+Trick 7
+-------
+North plays the Queen of Clubs.
+Southeast plays the Eight of Diamonds.
+Southwest plays the Queen of Spades.
+
+Southwest wins the trick.
+
+Trick 8
+-------
+Southwest plays the Ace of Spades.
+North plays the Six of Spades.
+Southeast plays the King of Spades.
+
+Southwest wins the trick.
+
+Trick 9
+-------
+Southwest plays the Six of Diamonds.
+North plays the King of Clubs.
+Southeast plays the Jack of Spades.
+
+Southeast wins the trick.
+
+Results
+-------
+North won 3 tricks and so failed their bid and now has 93 points.
+Southeast won 4 tricks and so failed their bid and now has 96 points.
+Southwest won 2 tricks and so failed their bid and now has 76 points.
+
+HAND 16
+=======
+Initial deal
+------------
+North (Dealer): 8♢ 10♢ J♠ K♠ 8♡ 10♡ Q♡ K♡ 6♣ 10♣ Q♣ A♣ 
+Southeast: 9♢ J♢ K♢ A♢ 6♠ 9♠ 10♠ 7♡ J♡ 7♣ 9♣ J♣ 
+Southwest: 6♢ 7♢ Q♢ 7♠ 8♠ Q♠ A♠ 6♡ 9♡ A♡ 8♣ K♣ 
+
+Current trump: Diamonds
+
+North's bid: 8♢ K♡ 10♣ (5 tricks)
+Southeast's bid: 9♠ 7♡ J♡ (5 tricks)
+Southwest's bid: 8♠ Q♠ 8♣ (5 tricks)
+
+Trick 1
+-------
+Southeast plays the Jack of Clubs.
+Southwest plays the King of Clubs.
+North plays the Ace of Clubs.
+
+North wins the trick.
+
+Trick 2
+-------
+North plays the Ten of Hearts.
+Southeast plays the Seven of Clubs.
+Southwest plays the Ace of Hearts.
+
+Southwest wins the trick.
+
+Trick 3
+-------
+Southwest plays the Nine of Hearts.
+North plays the Queen of Hearts.
+Southeast plays the Nine of Clubs.
+
+North wins the trick.
+
+Trick 4
+-------
+North plays the Jack of Spades.
+Southeast plays the Ten of Spades.
+Southwest plays the Ace of Spades.
+
+Southwest wins the trick.
+
+Trick 5
+-------
+Southwest plays the Six of Hearts.
+North plays the Eight of Hearts.
+Southeast plays the Nine of Diamonds.
+
+Southeast wins the trick.
+
+Trick 6
+-------
+Southeast plays the Six of Spades.
+Southwest plays the Seven of Spades.
+North plays the King of Spades.
+
+North wins the trick.
+
+Trick 7
+-------
+North plays the Six of Clubs.
+Southeast plays the King of Diamonds.
+Southwest plays the Queen of Diamonds.
+
+Southeast wins the trick.
+
+Trick 8
+-------
+Southeast plays the Jack of Diamonds.
+Southwest plays the Seven of Diamonds.
+North plays the Ten of Diamonds.
+
+Southeast wins the trick.
+
+Trick 9
+-------
+Southeast plays the Ace of Diamonds.
+Southwest plays the Six of Diamonds.
+North plays the Queen of Clubs.
+
+Southeast wins the trick.
+
+Results
+-------
+North won 3 tricks and so failed their bid and now has 96 points.
+Southeast won 4 tricks and so failed their bid and now has 100 points.
+Southwest won 2 tricks and so failed their bid and now has 78 points.
+
+Southeast wins the game!

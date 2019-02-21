@@ -113,9 +113,9 @@ public abstract class Player {
         Card cardSelected = selectCard(cardsPlayed, trump);
         CardSuit suitLed;
         
-        if (cardsPlayed.length == 0)
-            suitLed = cardSelected.getSuit();
-        else suitLed = cardsPlayed[0].getSuit();
+        if (cardsPlayed[0] != null)
+            suitLed = cardsPlayed[0].getSuit();
+        else suitLed = cardSelected.getSuit();
         
         playCard(cardSelected, suitLed);
     }
