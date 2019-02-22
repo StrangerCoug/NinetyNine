@@ -27,6 +27,7 @@ package ninetynine;
 
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.Scanner;
 
 import ninetynine.exceptions.CardNotHeldException;
 
@@ -42,9 +43,10 @@ public class HumanPlayer extends Player {
 
     @Override
     public void bid(CardSuit trump) throws CardNotHeldException, IOException {
-    	
+    	final Scanner KEYBOARD = new Scanner(System.in);
     	Card[] bidCards = new Card[3];
     	System.out.println("Please select 3 cards to bid.");
+    	String cardNumString;
     	int cardnum;
      	Card[] myHand = super.getHand().toArray(new Card[super.getHand().size()]);
         Arrays.sort(myHand);
@@ -52,9 +54,9 @@ public class HumanPlayer extends Player {
     	
     	for (int i=0; i<3; i++) {            
     		System.out.print("Select a card: ");
-    		cardnum = System.in.read();
-    		System.in.skip(10);
-    		cardnum -= 48;
+    		cardNumString = KEYBOARD.nextLine()  ;
+    		
+    		cardnum = Integer.parseInt(cardNumString) ;
     		bidCards[i] = myHand[cardnum];
     		//hand.remove(bidCards[i]);   		
     	}
@@ -74,14 +76,16 @@ public class HumanPlayer extends Player {
 
     @Override
     public Card selectCard(Card[] cardsPlayed, CardSuit trump) throws IOException {
+    	final Scanner KEYBOARD = new Scanner(System.in);
     	Card[] myHand = super.getHand().toArray(new Card[super.getHand().size()]);
     	Arrays.sort(myHand);
 		System.out.println(GameWriter.cardsToNumberedString(myHand));
 		System.out.print("Select a card: ");
 		int cardnum;
-		cardnum = System.in.read();
-		System.in.skip(10);
-		cardnum -= 48;
+		System.out.print("Select a card: ");
+		String cardNumString = KEYBOARD.nextLine()  ;
+		
+		cardnum = Integer.parseInt(cardNumString) ;
 		return myHand[cardnum];
     }
 
