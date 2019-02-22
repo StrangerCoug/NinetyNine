@@ -89,6 +89,7 @@ public class Game {
         int dealerIndex;
         int handCounter = 0; /* since it's forced to increment at the beginning
                                 of the game loop */
+        boolean isHumanPlaying = false;
         
         gameWriter.println("PLAYERS\n=======");
         for (int i = 0; i < numPlayers; i++) {
@@ -96,6 +97,7 @@ public class Game {
             gameWriter.println("Player #" + (i + 1) + ": " +
                     players[i].getName() + " (Strategy: " +
                     players[i].getPlayerStrategy() + ")");
+            if (players[i].getPlayerStrategy() == "Human") isHumanPlaying = true;
         }
         gameWriter.print("\n");
         
@@ -106,20 +108,24 @@ public class Game {
             dealCards(dealerIndex);
             
             // Print the dealt cards.
-            gameWriter.println("Initial deal\n------------");
-            
-            for (int i = 0; i < numPlayers; i++) {
-                players[i].resetTricksWon();
-                gameWriter.print(players[i].getName());
-                
-                if (i == dealerIndex)
-                    gameWriter.print(" (Dealer)");
-                
-                gameWriter.println(": " + gameWriter.cardsToString(
-                        players[i].getHand().toArray(new Card
-                                [players[i].getHand().size()])));
+            if (!isHumanPlaying) {
+	            gameWriter.println("Initial deal\n------------");
+	            
+	            for (int i = 0; i < numPlayers; i++) {
+	                players[i].resetTricksWon();
+	                gameWriter.print(players[i].getName());
+	                
+	                if (i == dealerIndex)
+	                    gameWriter.print(" (Dealer)");
+	                
+	                gameWriter.println(": " + gameWriter.cardsToString(
+	                        players[i].getHand().toArray(new Card
+	                                [players[i].getHand().size()])));
+	            }
             }
-            
+            else {
+            	for (int i = 0; i < numPlayers; i++) players[i].resetTricksWon();
+            }
             gameWriter.print("\nCurrent trump: ");
             
             if (getCurrentTrump() == null)
@@ -140,15 +146,17 @@ public class Game {
             // Have each player bid and then print each bid.
             for (int i = 0; i < numPlayers; i++) {
                 players[i].bid(currentTrump);
-                gameWriter.print(players[i].getName() + "'s bid: " +
-                        gameWriter.cardsToString(players[i].getCardsBid()) + "("
-                        + players[i].getTricksBid() + " trick");
-                
-                // Make sure it's grammatically correct!
-                if (players[i].getTricksBid() != 1)
-                    gameWriter.print("s");
-                
-                gameWriter.print(")\n");
+                if(!isHumanPlaying) {
+	                gameWriter.print(players[i].getName() + "'s bid: " +
+	                        gameWriter.cardsToString(players[i].getCardsBid()) + "("
+	                        + players[i].getTricksBid() + " trick");
+	                
+	                // Make sure it's grammatically correct!
+	                if (players[i].getTricksBid() != 1)
+	                    gameWriter.print("s");
+	                
+	                gameWriter.print(")\n");
+                }
             }
             
             gameWriter.print("\n");

@@ -110,7 +110,7 @@ public class GameWriter {
      * the time being.
      */
     
-    public String cardsToString(Card[] cards) {
+    public static String cardsToString(Card[] cards) {
         String cardsAsText = "";
         Card[] sortedCards = Arrays.copyOf(cards, cards.length);
         Arrays.sort(sortedCards);
@@ -121,6 +121,16 @@ public class GameWriter {
         return cardsAsText;
     }
     
+    public static String cardsToNumberedString(Card[] cards) {
+        String cardsAsText = "";
+        Card[] sortedCards = Arrays.copyOf(cards, cards.length);
+        Arrays.sort(sortedCards);
+        
+        for (int i=0; i < sortedCards.length; i++ )
+            cardsAsText = cardsAsText + "(" + String.valueOf(i) + ")" + (sortedCards[i].toStringShort() + " ");
+        
+        return cardsAsText;
+    }
     
     
     protected void announcePlay(Player player, Card card) {

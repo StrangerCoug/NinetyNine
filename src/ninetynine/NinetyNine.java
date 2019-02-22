@@ -47,6 +47,7 @@ public class NinetyNine {
         int numPlayers = promptNumberOfPlayers();
         
         Player[] players = new Player[numPlayers];
+        boolean isHumanPlaying = false;
         
         for (int i = 0; i < players.length; i++) {
             System.out.print("Please give player #" + (i + 1) + " a name: ");
@@ -55,10 +56,22 @@ public class NinetyNine {
             boolean isInputValid = false;
             
             while(!isInputValid) {
-                System.out.print("Select (R)andom, (S)imple, or (M)onte Carlo: ");
+                if(isHumanPlaying) System.out.print("Select (R)andom, (S)imple, or (M)onte Carlo: ");
+                else System.out.print("Select (H)uman, (R)andom, (S)imple, or (M)onte Carlo: ");
                 char strategy = KEYBOARD.nextLine().charAt(0);
                 
                 switch (strategy) {
+                	case 'h':
+                	case 'H':
+                		if (isHumanPlaying) {
+                			System.out.print("Only one human player is allowed");
+                		}
+                		else {
+                			players[i] = new HumanPlayer(name);
+                			isInputValid = true;
+                			isHumanPlaying = true;
+                		}                		
+                	break;
                     case 'r':
                     case 'R':
                         players[i] = new RandomPlayer(name);

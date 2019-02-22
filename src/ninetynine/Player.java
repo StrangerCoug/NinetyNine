@@ -25,6 +25,7 @@
  */
 package ninetynine;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import ninetynine.exceptions.CardNotHeldException;
@@ -36,7 +37,7 @@ import ninetynine.exceptions.IllegalCardException;
  */
 public abstract class Player {
     private final String name;
-    private ArrayList<Card> hand;
+    protected ArrayList<Card> hand;
     private Card[] cardsBid;
     private Card cardPlayed;
     private byte tricksWon;
@@ -75,7 +76,7 @@ public abstract class Player {
         hand.add(card);
     }
     
-    public abstract void bid(CardSuit trump) throws CardNotHeldException;
+    public abstract void bid(CardSuit trump) throws CardNotHeldException, IOException;
     
     protected void placeBid(Card[] cards) throws CardNotHeldException {
         if (cards.length != cardsBid.length) {
@@ -109,7 +110,7 @@ public abstract class Player {
     }
     
     public void selectAndPlayCard(Card[] cardsPlayed, CardSuit trump)
-            throws CardNotHeldException, IllegalCardException {
+            throws CardNotHeldException, IllegalCardException, IOException {
         Card cardSelected = selectCard(cardsPlayed, trump);
         CardSuit suitLed;
         
@@ -120,7 +121,7 @@ public abstract class Player {
         playCard(cardSelected, suitLed);
     }
     
-    public abstract Card selectCard(Card[] cardsPlayed, CardSuit trump);
+    public abstract Card selectCard(Card[] cardsPlayed, CardSuit trump) throws IOException;
     
     protected void playCard(Card card, CardSuit suitLed)
             throws CardNotHeldException, IllegalCardException{ 
@@ -168,7 +169,7 @@ public abstract class Player {
         return false;
     }
     
-    private void removeCard(Card card) throws CardNotHeldException {
+    protected void removeCard(Card card) throws CardNotHeldException {
         if (hand.contains(card))
             hand.remove(card);
         else {
