@@ -64,7 +64,7 @@ public class NinetyNine {
                 	case 'h':
                 	case 'H':
                 		if (isHumanPlaying) {
-                			System.out.print("Only one human player is allowed");
+                			System.out.println("Only one human player is allowed.");
                 		}
                 		else {
                 			players[i] = new HumanPlayer(name);
@@ -96,7 +96,7 @@ public class NinetyNine {
         
         int numGames = promptNumberOfGames();
         
-        System.out.println("Running games...");
+        System.out.println("Running games...\n");
         
         File directory = new File("runs/");
         if(!directory.exists())

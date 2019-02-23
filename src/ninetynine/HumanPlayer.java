@@ -43,7 +43,7 @@ public class HumanPlayer extends Player {
 
     @Override
     public void bid(CardSuit trump) throws CardNotHeldException, IOException {
-    	final Scanner KEYBOARD = new Scanner(System.in);
+    	Scanner KEYBOARD = new Scanner(System.in);
     	Card[] bidCards = new Card[3];
     	System.out.println("Please select 3 cards to bid.");
     	String cardNumString;
@@ -55,13 +55,24 @@ public class HumanPlayer extends Player {
     	for (int i=0; i<3; i++) {            
     		System.out.print("Select a card: ");
     		cardNumString = KEYBOARD.nextLine()  ;
-    		
     		cardnum = Integer.parseInt(cardNumString) ;
-    		bidCards[i] = myHand[cardnum];
-    		//hand.remove(bidCards[i]);   		
+    		while (cardnum < 0 || cardnum >= myHand.length) {
+    			System.out.print("Invalid card. Please pick again: ");
+        		cardNumString = KEYBOARD.nextLine()  ;
+        		cardnum = Integer.parseInt(cardNumString) ;
+    		}
+    		for (int j=0; j<=i; j++) {
+    			while( cardnum < 0 || cardnum >= myHand.length || bidCards[j]==myHand[cardnum] ) {
+    				System.out.print("Invalid card. Please pick again: ");
+    	    		cardNumString = KEYBOARD.nextLine()  ;
+    	    		cardnum = Integer.parseInt(cardNumString) ;
+    			}
+    		}
+    		bidCards[i] = myHand[cardnum];  		
     	}
     	
         placeBid(bidCards);
+        //KEYBOARD.close();
     }
 
     @Override
@@ -76,16 +87,23 @@ public class HumanPlayer extends Player {
 
     @Override
     public Card selectCard(Card[] cardsPlayed, CardSuit trump) throws IOException {
-    	final Scanner KEYBOARD = new Scanner(System.in);
+    	Scanner KEYBOARD = new Scanner(System.in);
     	Card[] myHand = super.getHand().toArray(new Card[super.getHand().size()]);
     	Arrays.sort(myHand);
 		System.out.println(GameWriter.cardsToNumberedString(myHand));
-		System.out.print("Select a card: ");
+
 		int cardnum;
 		System.out.print("Select a card: ");
-		String cardNumString = KEYBOARD.nextLine()  ;
+		String cardNumString = KEYBOARD.nextLine() ;
 		
 		cardnum = Integer.parseInt(cardNumString) ;
+		while(cardnum < 0 || cardnum >= myHand.length) {
+			System.out.print("Invalid card. Please select again");
+			cardNumString = KEYBOARD.nextLine() ;			
+			cardnum = Integer.parseInt(cardNumString) ;
+		}
+		
+		//KEYBOARD.close();
 		return myHand[cardnum];
     }
 

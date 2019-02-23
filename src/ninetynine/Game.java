@@ -126,7 +126,7 @@ public class Game {
             else {
             	for (int i = 0; i < numPlayers; i++) players[i].resetTricksWon();
             }
-            gameWriter.print("\nCurrent trump: ");
+            gameWriter.print("Current trump: ");
             
             if (getCurrentTrump() == null)
                 gameWriter.print("No Trump\n\n");
